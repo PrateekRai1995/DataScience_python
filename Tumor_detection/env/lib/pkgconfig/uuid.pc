@@ -1,0 +1,11 @@
+prefix=/home/prateek/P_Data/Conda/Tumor_detection/env
+exec_prefix=/home/prateek/P_Data/Conda/Tumor_detection/env
+libdir=/home/prateek/P_Data/Conda/Tumor_detection/env/lib
+includedir=/home/prateek/P_Data/Conda/Tumor_detection/env/include
+
+Name: uuid
+Description: Universally unique id library
+Version: 2.32.1
+Requires:
+Cflags: -I${includedir}/uuid
+Libs: -L${libdir} -luuid

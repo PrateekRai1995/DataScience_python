@@ -1,0 +1,7 @@
+prefix=/home/prateek/P_Data/Conda/Tumor_detection/env
+includedir=${prefix}/include
+
+Name: DPMSProto
+Description: DPMS extension headers
+Version: 1.2
+Cflags: -I${includedir}

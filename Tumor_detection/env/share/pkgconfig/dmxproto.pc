@@ -1,0 +1,7 @@
+prefix=/home/prateek/P_Data/Conda/Tumor_detection/env
+includedir=${prefix}/include
+ 
+Name: DMXProto
+Description: DMX extension headers
+Version: 2.3.1
+Cflags: -I${includedir}
